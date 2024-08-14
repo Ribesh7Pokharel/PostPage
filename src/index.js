@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Question from './Question';
+import Article from './Article';
+import Options from './Options';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className='title'>New Post</div>
+    <Options />
+    {/* <div className='selection'>Select Post Type
+    <label>
+    <input type="radio" name="choice" value="Question" /> Question
+  </label>
+  <label>
+    <input type="radio" name="choice" value="Article" /> Article
+  </label>
+    </div> */}
+    {/* <div className='title'>What do you want to ask or share?</div> */}
+    {/* <Question />
+    <Article/> */}
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
