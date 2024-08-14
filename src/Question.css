@@ -1,0 +1,16 @@
+.asking
+{
+    background-color: hsl(0, 5%, 76%);
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.postButton
+{
+    background-color: hsl(0, 5%, 76%);
+    border-color: hsl(0, 5%, 76%);
+}
