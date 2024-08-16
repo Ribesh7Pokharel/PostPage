@@ -1,0 +1,24 @@
+.articleInput
+{
+    height: 200px;
+}
+
+.abstractInput
+{
+    height: 75px;
+}
+
+.asking
+{
+    font-size: x-large;
+}
+
+
+.tagsInput
+{
+    position: absolute;
+    margin-top: 28.7%;
+    margin-left: 3%;
+    height: 13px;
+    width: 96%;
+}
